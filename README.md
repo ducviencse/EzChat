@@ -15,9 +15,6 @@ d. Ứng dụng cho sử dụng protocol mà nhóm đã định nghĩa.
 - destination   : Cổng port ủa người nhận gói tin. (int)
 - dataPos       : Số thứ thự của gói tin trong chuỗi gói tin nếu dữ liệu lớn (int)
 - flag          : Cờ hiệu đánh dấu loại gói tin.
-    +
-    +
-    +
 - data          : Dữ liệu được gửi, tối đa 256 byte cho mỗi gói. (byte[])
 
 ### Thành Viên
