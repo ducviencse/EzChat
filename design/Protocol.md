@@ -1,12 +1,15 @@
 #Thiết kế Protocol
 
 ##Xác định các khối chức năng
-* **Client**  -Kết nối->  **Server**  -Xác nhận kết nối, cung cấp port-> **Client**
-* **Client Gửi** -Gửi Message/File-> **Server** -Gửi Message/File-> **Client Nhận** -Xác nhận đã nhận-> **Server** -Xác nhận đã gửi-> **Client Gửi**
+**Client**  -Kết nối->  **Server**  -Xác nhận kết nối, cung cấp port-> **Client**
+
+**Client Gửi** -Gửi Message/File-> **Server** -Gửi Message/File-> **Client Nhận** -Xác nhận đã nhận-> **Server** -Xác nhận đã gửi-> **Client Gửi**
 ##Xác định định dạng dữ liệu cần truyền tải
-* Khi kết nối: Struct
-* Khi chat: String
-* Gửi file: Byte stream
+Khi kết nối: Struct
+
+Khi chat: String
+
+Gửi file: Byte stream
 ##Xác định mô hình kết nối
 * Loại kiết nối: TCP
 * Dạng liên kết: Đa Socket
